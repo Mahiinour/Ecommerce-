@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: Raleway ;
+}
+
+.con{
+    width: 100%;
+    min-height: 400px;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 10px;
+ } 
+ /* .sub-img{
+    width: 10%;
+    background-color: aqua;
+ }  */
+ /* .grid{
+    width: 10%;
+    min-height:100px ;
+ } */
+
+.images{
+    width: 50%;
+    height:100px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    object-fit: contain;
+     
+} 
+.card-img{
+    width: 70%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+    position: absolute;
+    object-fit: contain;
+}
+.texts{
+    width:30%;
+    min-height: 100px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    
+}
+.texts p{
+    font-family: Roboto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+    font-weight: 700;
+    font-size: 16px;
+    
+}
+label{
+    
+    margin-left:12px;
+    font-family: Roboto Condensed;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+h6{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size:16px;
+}
+.btn{
+    width: 400px;
+    height: 40px;
+    background-color: #5ECE7B !important;
+    border: none !important;
+    font-size: 16px !important;
+    border-radius: 0 !important;
+    font-weight: 600 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+table{
+    border-bottom: 0 ;
+    box-shadow: none;
+}
+tbody{
+    display: flex;
+    justify-content: start;
+    margin-left: 8px;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+

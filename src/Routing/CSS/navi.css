@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+.me-auto{
+    width: 1440px;
+    /* height: 80px ; 
+     position: fixed; */
+    gap: 30px; 
+   
+}
+.me-auto a{
+    font-family: Raleway;
+    font-weight:400;
+    size: 16px;
+    line-height: 19.2px;
+    text-align: center;
+    color: black;
+}
+.me-auto a:hover{
+     cursor: pointer;
+     color: #5ECE7B;
+     font-weight: 600;
+}
+.me-auto .logo img{
+    width: 31.16px;
+    height: 30.18px;
+    top: 5.41px;
+    left: 4.92px;
+    padding: 0px 0px 0.25px 0px;
+    
+}
+.me-auto img{
+    width: 20px;
+    height: 18px;
+    top:1.17px;
+    cursor: pointer;
+    margin-right: 27.83px;
+}
+.navbar-nav .nav-link.active{
+    color:#5ECE7B !important ;
+}
